@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "name": "stimulus-tutorial",
+  "builds": [
+     { "src": "server.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+     { "src": "/(.*)", "dest": "/index.js" }
+  ]
+}
